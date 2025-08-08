@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td> <label for="name"> Name: </label> </td>
+                <td cols="5"> <input type="text" name="name" id="name"> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="email"> Email: </label></td>
+                <td cols="5"> <input type="email" name="email" id="email"> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="message"> Message:</label></td>
+            </tr>
+            <tr>
+                <td colspan="6"> <textarea name="message" cols="30" rows="5" placeholder="Write your feedback here..." id="message"></textarea> </td>
+            </tr>
+        </table>
+        <label for="Rating">Rate us:</label><br>
+        <input type="radio" name="rating" value="1" id="rating">1<br>
+        <input type="radio" name="rating" value="2" id="rating">2<br>
+        <input type="radio" name="rating" value="3" id="rating">3<br>
+        <input type="radio" name="rating" value="4" id="rating">4<br>
+        <input type="radio" name="rating" value="5" id="rating">5<br>
+
+        <br><br>
+        <button type="submit" name="submit">Send Your Message!</button>
+    </form>
+</body>
+</html>
