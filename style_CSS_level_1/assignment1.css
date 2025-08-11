@@ -1,0 +1,38 @@
+.poem{
+    color:red;
+    text-align: center;
+    line-height: 30px;
+    
+} 
+
+
+h3{
+    text-align: center;
+    color:black;
+    
+}
+
+span{
+    text-decoration: underline;
+}
+
+h4 a{
+    color:green;
+    text-decoration: none;
+}
+
+body{
+    font-family: Georgia;
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    color: blue;
+    font-weight: 700;
+}
+
+.msg{
+    background-color: black;
+    color:aqua;
+}
