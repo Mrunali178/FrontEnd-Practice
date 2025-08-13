@@ -1,0 +1,14 @@
+div{
+    background-color: lightblue; 
+}
+
+form{
+    background-color: lightyellow;
+}
+
+h2{
+    background-color: lightgreen;
+}
+input[type]{
+    background-color: inherit;
+}
