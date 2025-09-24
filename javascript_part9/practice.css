@@ -1,0 +1,17 @@
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
+
+.box{
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.heading{
+    text-decoration: underline 2px solid black;
+    color:purple
+}
